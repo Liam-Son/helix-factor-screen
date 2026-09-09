@@ -1,50 +1,53 @@
 # helix-factor-screen
 
-HLX (through 2026-09-01 only; HOS is not spliced) factor screen.
+Research log for **Helix (HLX) → Hornbeck (HOS)** as an equity, not an oil-trading satellite.
 
-The 96-factor book is **not** checked into this GitHub account as a single file. This repo screens the **energy-chain subset that can actually be built from public prices** plus solar/geomagnetic leftovers from the 093/094 tests.
+- HLX ends **2026-09-01**. HOS starts **2026-09-02**. Do not splice.
+- Live engine status (2026-09-09): **WAIT** (HOS < 60 return days, G3 locked).
 
-Question: which factors help **predict HLX**, not just explain the same day?
+## Verdict board
 
-## Verdict
-
-| Role | Factors | Useful for HLX price *prediction*? |
+| Idea | Verdict | Why |
 |---|---|---|
-| Same-day beta | OIH, OSB, XLE, UPB, FTI, BKR, TDW | Yes as *explanation* (IC 0.60–0.76). **No** as 20D forecast (IC ~0). |
-| Crude / products | WTI, Brent, RBOB, ULSD, USO | Same-day IC 0.39–0.50. Forward 20D IC ~0.02, insignificant. |
-| Cracks | RBOB_CRK, ULSD_CRK | Dead both ways. |
-| Dollar / credit | DXY, HYG | DXY same-day −0.17. Forward ~0. |
-| Solar | SN27, Ap | SN27 forward IC +0.04 (p=0.005) but OOS p=0.19. Ap dead. |
-| Relative value | z_HLX_WTI, z_HLX_OSB | Cheap-on-WTI has **negative** 20D IC (−0.09). Mean-reversion pair fails. |
-| Vol / fear | VIX_lvl, HLX_rv20 | Weak positive 20D IC (~0.08) and OOS +0.14 — high vol precedes higher *average* 20D return (risk premium), not a timing edge after costs. |
-| Momentum | HLX_mom60, HLX_minus_OSB_20 | Negative forward IC. OOS HLX-minus-OSB IC **−0.23** (continuation of relative weakness, not catch-up). |
-| Service momentum | OSB_mom20 | Small positive 20D IC +0.05; OOS +0.09 / XOSB +0.16. Best *weak* forward candidate, still tiny. |
+| Financial astrology / lunar / SSOI → WTI | KILL | No OOS edge after placebos |
+| Six-market HECM residual → HLX +20d | KILL | OSB alone wins; OOS catch-up fails |
+| HLX/WTI rolling-β z-pairs (synthetic paper rules) | KILL | Real data 2021–22 **−66%**; ADF p=0.11 |
+| Crack z → HLX | KILL | Cracks weakly mean-revert; do not transmit to HLX |
+| Refiner basket / WTI 20d RV | CANDIDATE (not HLX) | Val/OOS IC negative as MR; separate book |
+| Cycle-lag BUY engine G1·G2·G3 | KEEP as checklist | 2022-style setup only; default cash |
 
-**OSB/OIH explain HLX. Almost nothing in this set forecasts HLX +20D in a way that survived HECM / pair tests.**
+## Cycle-lag engine (what we run)
 
-## Method
+Gates must all be ON **two days in a row**. Trade next day. VIX top quintile → 0.5x. HOS post-merger cap 0.5x. G3 locked until 60 HOS days.
 
-- Target A: Spearman IC(factor_t, HLX return t+1..t+20)
-- Target B: same vs HLX−OSB +20D
-- Same-day IC for comparison only
-- Sample 2008-01-01 → 2026-04-21 (pre deal). OOS column = 2020-01-01 → 2026-04-21
-- HLX ends 2026-09-01. Do not use historical HOS ticker before 2026-09-02
+- G1 environment: 2 of (WTI +20% vs 12m low, WTI not −25% vs 12m high, UPB 60d > 0)
+- G2 services: OSB 60d > 0 or OIH above 120d low
+- G3 lag: target 60d return − OSB ≤ −10pp
 
-See `factor_screen.csv` and `screen.py`.
+Research filter: ignore episodes shorter than 5 sessions.
 
-## What from a 96-factor oil book maps here
+Tight ledger (21 trades, HLX 2012–2026-09-01):
 
-Keep as **HLX cycle filters / same-day controls**, not alpha:
-1. Oil-service basket (OSB / OIH)
-2. Upstream producers (UPB / XLE)
-3. WTI and Brent *levels and 20D momentum* as environment
-4. VIX / realized vol as risk regime
+- Win rate **15/21 = 71%** (vs OSB 57%)
+- Avg log-return +3.9% (winners +10.1%, losers −11.6%)
+- Account with 2-day confirm + drop <5d: NAV **+106%** vs HLX BH **−31%**
+- In-sample after seeing 2022. Not a validated alpha paper.
 
-Kill / do not promote for HLX timing:
-- WTI–HLX ratio mean reversion
-- Cracks as incremental predictors
-- Same-day crude returns as lead
-- Solar/geomagnetic as linear alpha
-- Six-factor HECM residual 20D catch-up (see prior HECM work)
+Code: `cycle_lag/buy_engine.py`  
+Trades: `cycle_lag/engine_trades_tight.csv`
 
-HOS: FORWARD_ONLY. Re-run this screen after several quarters of combined prints.
+## Factor screen
+
+Same-day ICs are high for OIH/OSB/XLE (~0.70–0.76). Forward 20d ICs are ~0. See `factors/factor_screen.csv`.
+
+## QET-MA mapping
+
+Causal-first + PIT z + disc/val/oos:
+
+- HLX/WTI z is continuation, not mean reversion → do not deploy.
+- Crack z is a weak crack product, not an HLX product.
+- Refiner/WTI relative value is the only QET-style candidate, and it is **not** the HOS engine.
+
+## Live rule
+
+`OFF` unless three confirmed gates. Today: **WAIT**. First HOS combined print before 1.0x.
