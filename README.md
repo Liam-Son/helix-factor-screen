@@ -1,19 +1,15 @@
 # helix-factor-screen
 
-Helix (HLX through 2026-09-01) and Hornbeck (HOS from 2026-09-02). **Do not splice.**
+**Buy & hold HLX vs cycle-lag strategy**
 
-Live engine (2026-09-09): **WAIT**.
+![bh vs strategy](cycle_lag/bh_vs_strategy.svg)
 
-## Tight engine chart (21 trades, 71% hit)
+| 2012-01 → 2026-09-01 | End NAV (start=1) | What it is |
+|---|---|---|
+| **Strategy** (navy) | **2.06x (+106%)** | Long HLX only when 2-day G1·G2·G3 on; cash otherwise; skip <5d flicker |
+| **Buy & hold HLX** (orange) | **0.69x (−31%)** | Always long |
+| OSB peers (grey) | 0.71x | SLB/HAL/NOV/RIG/OII |
 
-![tight trades](cycle_lag/engine_trades_tight.svg)
+Navy line is flat most of the time — that *is* the strategy. It does not ride 2015 or 2020 down. It is in-sample after 2022. Live ticker is **HOS**; do not splice. Engine today: **WAIT**.
 
-Ledger: [cycle_lag/engine_trades_tight.csv](cycle_lag/engine_trades_tight.csv)
-
-## What is live
-
-Cycle-lag BUY engine (`cycle_lag/buy_engine.py`). Cash is default. Three 2-day-confirmed gates. HOS G3 locked until 60 return days.
-
-## What is dead
-
-Oil-up + stock-down standalone buy: loose rule is a coin; tight 2022-like rule 8 events, 60d hit 25%, avg -19%. Full writeup in [RESULTS.md](RESULTS.md).
+Trade bars: [engine_trades_tight.svg](cycle_lag/engine_trades_tight.svg) · [csv](cycle_lag/engine_trades_tight.csv) · [RESULTS](RESULTS.md) · [engine](cycle_lag/buy_engine.py)
