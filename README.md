@@ -2,6 +2,11 @@
 
 HLX tape ends **2026-09-01**. HOS is a different security. Do not splice.
 
+**Status page:** [STATUS.md](STATUS.md) · **Thesis:** [thesis/THESIS.md](thesis/THESIS.md) · **Residual line:** [thesis/Residual_Catchup.md](thesis/Residual_Catchup.md) · **Lab:** [LAB.md](LAB.md)
+
+
+HLX tape ends **2026-09-01**. HOS is a different security. Do not splice.
+
 **Wrap-up:** the picture below is the best book this repo ever printed. It is an **in-sample pattern**, not alpha. Live engine **KILL**. History book **PARK**.
 
 ## Main figure — year-end NAV
