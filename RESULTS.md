@@ -1,10 +1,15 @@
-# Results dump (updated 2026-09-09)
+# Results dump (updated 2026-09-10)
 
-## Live snapshot
+## Verdict
 
-- Brent ~$99, WTI ~$94. Shock premium vs ~$72 Feb-2026 baseline (~+38% Brent).
-- HLX last print 2026-09-01 **$10.60**. HOS 2026-09-08 close **$9.08**, cap ~$2.9bn.
-- Engine: **WAIT**. G1 on (oil). G3 locked (HOS < 60 days). Do not splice.
+HLX last print 2026-09-01 **$10.60**. HOS is a different tape. Engine **KILL**. Thesis: timing ≠ alpha. See [thesis/THESIS.md](thesis/THESIS.md).
+
+Walk-forward 2020–2026-09-01, frozen gates, 10bp: engine **0.45×** vs HLX B&H **1.10×** vs OSB **1.40×**. Drop-pack TP/SL/pyramid still **0.72×** vs B&H 1.10×.
+
+## Snapshot (not a signal)
+
+- Early September 2026 oil was still elevated versus the Feb-2026 baseline.
+- Do not splice. Do not run G3 on HOS for this card.
 
 ## Oil-up / stock-down event study (the trader thesis)
 
