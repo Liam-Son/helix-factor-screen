@@ -37,6 +37,23 @@ Helix-type well-intervention names do not lead oil. They ride oil-service beta w
 | Walk-forward FAIL | https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/097-helix-hos-cycle-lag/WALKFORWARD.md |
 | Test inventory | https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/097-helix-hos-cycle-lag/TEST_INVENTORY.md |
 
+
+## After the cycle-lag kill (102 / 103 / v22 / v23)
+
+The 2.06× figure above is still the best *in-sample pattern* this repo drew. It is not the last experiment.
+
+Peer-neutral residual catch-up was registered as 102. First-breach v19 opened holdout through 2026-04-21 and failed (DEV −0.60%, HOLD −0.25%). Pair books versus OII and other listed peers failed independently (103). Two development-only revisions — two-turn confirmation (v22) and a 10-session episode cap (v23) — raised the DEV mean to +2.65% then +3.85% and still missed ADVANCE (\(n<40\), neighbors 6/9). HOLD stays sealed.
+
+Write-up: [thesis/Residual_Catchup.md](thesis/Residual_Catchup.md)
+
+| card | one line | url |
+| --- | --- | --- |
+| 102 v19 | HOLD mean −0.25%, NOT_PROVEN | https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/102-helix-hir-alphalock/README.md |
+| 103 pairs | HLX–OII residual half-life 0.2d | https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/103-helix-peer-pairs/README.md |
+| v22 | two-turn DEV +2.65%, no ADVANCE | https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/102-helix-hir-alphalock/v22/README.md |
+| v22-D | OSB=OII+FTI worse | https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/102-helix-hir-alphalock/v22/move-D-oii-fti/README.md |
+| v23 | cap=10 DEV +3.85%, no ADVANCE | https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/102-helix-hir-alphalock/v23/README.md |
+
 ## Phase 1 close (2026-09-10)
 
 Deck: https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/presentations/ls-crude-phase1-wrapup.pptx

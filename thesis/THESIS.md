@@ -37,3 +37,8 @@ Same-day OIH correlation ≈ 0.79 OOS. WTI ≈ 0.40. A 60-day lag sometimes fill
 ## Batteries
 
 [TEST_INVENTORY](https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/097-helix-hos-cycle-lag/TEST_INVENTORY.md) · [WALKFORWARD](https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/097-helix-hos-cycle-lag/WALKFORWARD.md) · [097 README](https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/097-helix-hos-cycle-lag/README.md)
+
+## Sequel that also failed to ADVANCE
+
+Residual catch-up (102) and listed-peer pairs (103) are written in [Residual_Catchup.md](Residual_Catchup.md).
+v19 holdout failed. v22/v23 improved the development mean and did not clear the written ADVANCE rule. Holdout remains sealed.
