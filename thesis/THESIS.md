@@ -40,5 +40,5 @@ Same-day OIH correlation ≈ 0.79 OOS. WTI ≈ 0.40. A 60-day lag sometimes fill
 
 ## Sequel that also failed to ADVANCE
 
-Residual catch-up (102) and listed-peer pairs (103) are written in [Residual_Catchup.md](Residual_Catchup.md).
+Residual catch-up (102) and listed-peer pairs (103) are written in [Residual_Catchup.md](Residual_Catchup.md) · [한국어](Residual_Catchup.ko.md).
 v19 holdout failed. v22/v23 improved the development mean and did not clear the written ADVANCE rule. Holdout remains sealed.
