@@ -1,5 +1,3 @@
-Superseded by [THESIS.md](THESIS.md).
+See [THESIS.md](THESIS.md).
 
-Old one-liner: “pattern yes, alpha not yet, engine WAIT.”
-
-Revised: pattern is oil-service beta plus an in-sample timing path. Alpha no. Engine KILL. HOS out of this repo’s claim.
+Close: the 2.06× NAV chart is the pattern. Walk-forward is the verdict. Alpha: no.

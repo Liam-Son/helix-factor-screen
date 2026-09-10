@@ -1,14 +1,17 @@
-# Helix group engine
+# Helix group engine — discovery book only
 
-Live 2026-09-10: engine **KILL** on the HLX tape. HOS is not this book.
+Engine **KILL**. HOS is not this book.
 
-Rule: G1+G2+G3 (-10pp vs OSB), 2-day, next session. TP +15% log. SL -15% log. First 5 days green → +0.5 size. No HLX/HOS splice.
+Rule that produced the chart on the front page: G1+G2+G3 (−10pp vs OSB), 2-day confirm, next session. Cash default.
 
-HLX 2012–2026-09-01 discovery book: NAV **4.19x** vs B&H 0.69x after TP/SL/pyramid. **In-sample after 2022.** Frozen-gate walk-forward OOS loses to buy-and-hold. Do not quote 4.19× as alpha.
+## The chart that looked best
 
-![NAV](engine_nav.svg)
+![B&H vs strategy](bh_vs_strategy.svg)
 
-![trades](engine_trades.svg)
+Year-end NAV: strategy **2.06×**, HLX B&H **0.69×**, OSB **0.71×**.
 
-Files: `buy_engine.py`, `helix_group_engine.py`, `helix_group_trades.csv`.
-Copy into Noah-TaeHwan/ls-crude/research/factors/helix-hos yourself.
+![Tight trades](engine_trades_tight.svg)
+
+21 episodes ≥5d, hit 71%. Files: `engine_trades_tight.csv`, `helix_group_trades.csv`, `SIGNALS.md`.
+
+TP/SL/pyramid 4.19× is a later knob on the same in-sample path. Frozen OOS without those knobs: **0.45× vs B&H 1.10×**. See [WALKFORWARD](https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/097-helix-hos-cycle-lag/WALKFORWARD.md).
