@@ -1,5 +1,18 @@
 # Status
 
+## What shipped
+
+No live alpha engine. This is what the desk actually produced.
+
+1. HLX tape closed 2026-09-01. No HOS splice.
+2. Same-day oil-service comovement. OII is the listed twin.
+3. Written kills: cycle lag, residual pairs, two-turn HIR — none cleared frozen OOS plus costs.
+4. Risk sleeve: hedge an existing well-intervention line with OII. DEV vol 66.8%→51.3%, HOLD 50.9%→37.8% (ls-crude 104).
+5. Filter sentence for public USO–XLE / OFS-equity-alpha notebooks (ls-crude 105).
+
+That is the deliverable. The 2.06× curve is not.
+
+
 Single page for this repository. Numbers live in the linked cards.
 
 | object | verdict | note |
