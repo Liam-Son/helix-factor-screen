@@ -68,3 +68,11 @@ Quant conclusion: the 6-month gap is a **description**. It is not a **forecast**
 - Crack z does not transmit to HLX.
 - HECM six-factor residual does not beat OSB out of sample.
 - Tight cycle-lag engine (2-day confirm, episodes >=5d): 21 trades, 71% hit, avg +3.9%, account +106% vs BH -31%, **in-sample after 2022**.
+
+## Peer transfer 2026-09-10
+
+Same frozen gates on OII TDW FTI RIG SLB HAL OSB. OOS 2020–2026-09-01 vs each name’s buy-and-hold:
+
+OII 1.34 vs 3.44, TDW 0.79 vs 4.98, FTI 1.29 vs 4.91, RIG 1.43 vs 0.86, SLB 1.00 vs 1.42, HAL 1.13 vs 1.50, OSB 1.25 vs 1.40.
+
+Peers lose except RIG-vs-its-own-bad-B&H (cash default). Not a WTI forecast. Not a new engine.

@@ -43,6 +43,10 @@ Full inventory: [Noah-TaeHwan/ls-crude 097 TEST_INVENTORY](https://github.com/No
 
 \(\varepsilon\) mean-reverts a little after a 60-day lag. \(\beta\) is the story. \(\varepsilon\) is not alpha after costs, peers, and a frozen OOS cut.
 
+## Peer transfer
+
+Same gates on OII/TDW/FTI/RIG/SLB/HAL/OSB lose to buy-and-hold out of sample, except RIG beating a 0.86 B&H tape. The engine is crash-avoidance in high-beta oil service, not Helix alpha and not an oil-price forecast.
+
 ## What would reopen this
 
 A *HOS-only* tape after day 60, same frozen gates, beating OSB after costs, with no retune of −10pp / 20% / 2-day / TP. That is a new security. It is not this thesis.
