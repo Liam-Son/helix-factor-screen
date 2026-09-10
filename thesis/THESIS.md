@@ -42,3 +42,5 @@ Same-day OIH correlation ≈ 0.79 OOS. WTI ≈ 0.40. A 60-day lag sometimes fill
 
 Residual catch-up (102) and listed-peer pairs (103) are written in [Residual_Catchup.md](Residual_Catchup.md) · [한국어](Residual_Catchup.ko.md).
 v19 holdout failed. v22/v23 improved the development mean and did not clear the written ADVANCE rule. Holdout remains sealed.
+
+> 헬릭스 테이프는 석유서비스 동행을 확인한다. 같은 테이프에서 잔차 페어와 사이클 래그 엔진은 고정 표본 밖·비용 후 전진 규칙을 통과하지 못했다. 동행을 가정하는 모형에는 보조 자료가 되고, 동행을 알파로 바꾸는 모형에는 반례에 가깝다.

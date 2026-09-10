@@ -14,3 +14,5 @@ Single page for this repository. Numbers live in the linked cards.
 | HOS tape | FORWARD_ONLY | New ticker from 2026-09-02. Do not splice |
 
 HLX last print used: 2026-09-01.
+
+> Helix confirms oil-service comovement. On the same tape, residual pairs and the cycle-lag engine did not clear frozen out-of-sample and cost gates. That is supporting material for models that assume comovement, and a counter-example for models that turn comovement into alpha.
