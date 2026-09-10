@@ -1,20 +1,29 @@
 # helix-factor-screen
 
-HLX through 2026-09-01. HOS from 2026-09-02. Do not splice.
+**Claim (10 Sep 2026).** HLX had a lag pattern versus oil and oil-service peers. WTI had a cycle. The sentence that turns those two facts into a buy rule is false on the tests this repo will sign. What remains is a cash-default three-gate timer. Live ticker is HOS. Do not splice. Engine: **WAIT**.
 
-**2026-09-10 engine: WAIT** (G1 ON, G2 ON, G3 locked — 5/60 HOS days).
-
-![bh vs strategy](cycle_lag/bh_vs_strategy.svg)
+![Buy and hold vs strategy](cycle_lag/bh_vs_strategy.svg)
 
 | 2012 → 2026-09-01 | NAV |
 |---|---|
-| Strategy | 2.06x |
+| Gate (cash when off) | 2.06x |
 | Buy & hold HLX | 0.69x |
-| OSB | 0.71x |
+| OSB peers | 0.71x |
 
-In-sample after 2022. Pattern, not proven alpha.
+NAV gap is mostly 2015 and 2020 not taken. Discovery sample after 2022. Twenty-one trades. Not alpha.
 
-- [Checkpoints today](CHECKPOINTS.md)
-- [21 signals](cycle_lag/SIGNALS.md)
-- [Trade bars](cycle_lag/engine_trades_tight.svg)
-- [RESULTS](RESULTS.md)
+## Frozen rule
+
+G1 oil environment AND G2 service complex AND G3 60-day lag vs OSB ≤ −10pp, two days, next session, drop <5d. G3 locked until 60 HOS sessions (~24 Nov 2026).
+
+## Killed
+
+Pairs z, cracks, HECM residual, oil-up/stock-down (8 events, 60d hit 25%, mean −19.5%).
+
+## Read
+
+- [CHECKPOINTS](CHECKPOINTS.md) — today
+- [RESULTS](RESULTS.md) — event study
+- [SIGNALS](cycle_lag/SIGNALS.md) — 21 episodes
+- [engine](cycle_lag/buy_engine.py)
+- Thesis Word file is local (`Timing_versus_Alpha_thesis.docx`); tables above are the same paper.
