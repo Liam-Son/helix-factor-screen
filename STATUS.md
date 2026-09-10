@@ -42,3 +42,8 @@ HLX last print used: 2026-09-01.
 ## Use
 
 This line is a **filter**, not a signal. Hedge an existing well-intervention line with OII. Do not splice HOS. Do not drop HLX into a USO–XLE or OFS-equity-alpha residual. Do not fade oil gaps or reboot the 2.06× engine.
+## 104 sleeve
+
+Hedge an existing well-intervention line with OII. Vol DEV 67→51, HOLD 51→38.
+Hedge-leg race: OSB 47/34, OII 51/38, WTI 64/48. Do not hedge OFS with crude.
+https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/104-helix-sleeve-hedge/README.md
