@@ -1,9 +1,3 @@
----
-title: "Timing versus Alpha"
-subtitle: "A Falsification Study of Crude-Oil Cycles and Offshore-Service Equity Patterns"
-date: "10 September 2026"
----
+Use local file Timing_versus_Alpha_thesis.docx and thesis.md in artifacts; GitHub copy: see RESULTS.md + SIGNALS.md + CHECKPOINTS.md which contain the same tables and claim.
 
-Full text is in this file. Claim: HLX lag pattern exists; oil cycles exist; neither is alpha yet. Engine WAIT on HOS.
-
-See repository RESULTS.md, CHECKPOINTS.md, cycle_lag/SIGNALS.md for tables. Word copy generated locally as Timing_versus_Alpha_thesis.docx.
+Abstract claim: pattern yes, alpha not yet. Engine WAIT.
