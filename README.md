@@ -1,17 +1,20 @@
 # helix-factor-screen
 
-**Buy & hold HLX vs cycle-lag strategy**
+HLX through 2026-09-01. HOS from 2026-09-02. Do not splice.
+
+**2026-09-10 engine: WAIT** (G1 ON, G2 ON, G3 locked — 5/60 HOS days).
 
 ![bh vs strategy](cycle_lag/bh_vs_strategy.svg)
 
-| 2012-01 → 2026-09-01 | End NAV (start=1) |
+| 2012 → 2026-09-01 | NAV |
 |---|---|
-| **Strategy** | **2.06x (+106%)** |
-| **Buy & hold HLX** | **0.69x (−31%)** |
-| OSB peers | 0.71x |
+| Strategy | 2.06x |
+| Buy & hold HLX | 0.69x |
+| OSB | 0.71x |
 
-Navy line flat = cash. In-sample after 2022. Live ticker **HOS**, do not splice. Engine: **WAIT**.
+In-sample after 2022. Pattern, not proven alpha.
 
-- [What the 21 signals were](cycle_lag/SIGNALS.md)
-- [Trade bars](cycle_lag/engine_trades_tight.svg) · [csv](cycle_lag/engine_trades_tight.csv)
-- [RESULTS](RESULTS.md) · [engine](cycle_lag/buy_engine.py)
+- [Checkpoints today](CHECKPOINTS.md)
+- [21 signals](cycle_lag/SIGNALS.md)
+- [Trade bars](cycle_lag/engine_trades_tight.svg)
+- [RESULTS](RESULTS.md)
