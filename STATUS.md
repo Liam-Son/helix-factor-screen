@@ -16,3 +16,16 @@ Single page for this repository. Numbers live in the linked cards.
 HLX last print used: 2026-09-01.
 
 > Helix confirms oil-service comovement. On the same tape, residual pairs and the cycle-lag engine did not clear frozen out-of-sample and cost gates. That is supporting material for models that assume comovement, and a counter-example for models that turn comovement into alpha.
+
+## 쓸모
+
+이 줄은 시그널이 아니라 **필터**다.
+
+쓸 것: 개입주를 이미 들고 있으면 OII로 헤지. HOS를 잇지 말 것. USO–XLE나 OFS 주식알파 노트북에 HLX 잔차를 넣지 말 것.
+쓰지 말 것: 원유 갭을 페이드, WTI 예측, 인샘플 2.06× 엔진 재가동.
+
+필터는 돈을 안 번다. 잘못된 책을 한 권 덜 연다.
+
+## Use
+
+This line is a **filter**, not a signal. Hedge an existing well-intervention line with OII. Do not splice HOS. Do not drop HLX into a USO–XLE or OFS-equity-alpha residual. Do not fade oil gaps or reboot the 2.06× engine.
