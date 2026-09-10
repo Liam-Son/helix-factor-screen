@@ -48,7 +48,7 @@ Hit 60d **25%**. Average 60d **-19.5%**. This is the opposite of a buy rule.
 
 **Short trader window: 20d WTI >= +8% AND gap <= -10pp** — n=39, next-20d hit 54%, avg +3.1%, vs OSB +0.5%.
 
-Quant conclusion: the 6-month gap is a **description**. It is not a **forecast**. Deploy only if G2 (services/peers) and HOS ops (utilization/dayrates) confirm, which they do not as of 2026-09-09.
+Quant conclusion: the 6-month gap is a **description**. It is not a **forecast**. Utilization (14q) does not lead HLX. SEC YoY revenue lead is r=+0.20 n=28. Still not a forecast.
 
 ## Market + ops + fundamentals (one page)
 
