@@ -36,3 +36,9 @@ Helix-type well-intervention names do not lead oil. They ride oil-service beta w
 | 097 figures | https://github.com/Noah-TaeHwan/ls-crude/tree/main/research/factors/097-helix-hos-cycle-lag/figures |
 | Walk-forward FAIL | https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/097-helix-hos-cycle-lag/WALKFORWARD.md |
 | Test inventory | https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/097-helix-hos-cycle-lag/TEST_INVENTORY.md |
+
+## Phase 1 close (2026-09-10)
+
+Deck: https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/presentations/ls-crude-phase1-wrapup.pptx
+
+Homework (not yet testable): [099 MP1 daily](https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/099-fomc-mp1-daily-proxy/README.md) · [100 HOS n=5](https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/100-hos-regime-b/README.md) · [101 EIA n=8](https://github.com/Noah-TaeHwan/ls-crude/blob/main/research/factors/101-eia-inventory-consensus/README.md)
